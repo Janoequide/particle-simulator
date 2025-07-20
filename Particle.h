@@ -3,9 +3,9 @@
 #include <vector>
 
 struct Particle {
-    float position[2];
-    float velocity[2];
-    float acceleration[2];
+    float position[3];
+    float velocity[3];
+    float acceleration[3];
     float mass;
     float charge;
 };
